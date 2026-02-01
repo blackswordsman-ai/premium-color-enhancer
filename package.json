@@ -32,12 +32,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/premium-color-enhancer.git"
+    "url": "https://github.com/blackswordsman-ai/premium-color-enhancer"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/premium-color-enhancer/issues"
+    "url": "https://github.com/blackswordsman-ai/premium-color-enhancer"
   },
-  "homepage": "https://github.com/yourusername/premium-color-enhancer#readme",
+  "homepage": "https://github.com/blackswordsman-ai/premium-color-enhancer#readme",
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.0",
