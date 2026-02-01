@@ -1,0 +1,8 @@
+src/
+tests/
+examples/
+coverage/
+.gitignore
+rollup.config.js
+jest.config.js
+*.test.js

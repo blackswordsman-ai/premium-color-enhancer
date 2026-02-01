@@ -1,0 +1,51 @@
+{
+  "name": "premium-color-enhancer",
+  "version": "1.0.0",
+  "description": "Enhance colors to make them clearer, more premium, and accessible for your design system",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "color",
+    "enhancement",
+    "premium",
+    "clarity",
+    "accessibility",
+    "wcag",
+    "design-system",
+    "ui",
+    "palette"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/premium-color-enhancer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/premium-color-enhancer/issues"
+  },
+  "homepage": "https://github.com/yourusername/premium-color-enhancer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0",
+    "rollup": "^4.57.1"
+  }
+}
